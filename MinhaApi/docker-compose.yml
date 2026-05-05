@@ -1,0 +1,64 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: minhaapi
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"
+      ASPNETCORE_URLS: "http://+:8080"
+
+      # Variáveis essenciais (LOCAL)
+      DB_CONNECTION: "Host=minhaapi_db;Port=5432;Database=minhaapi;Username=postgres;Password=postgres"
+      ConnectionStrings__DefaultConnection: "Host=minhaapi_db;Port=5432;Database=minhaapi;Username=postgres;Password=postgres"
+
+      JwtSecret: "K6e/0JjxAujLCu3h5bp724TUkyvJlp8BSGLJZ0ELO2g="
+      APPLICATIONINSIGHTS_CONNECTION_STRING: ""
+
+      OPENWEATHER_API_KEY: ${OPENWEATHER_API_KEY}
+
+    depends_on:
+      db:
+        condition: service_healthy
+
+    # Healthcheck usando o endpoint real da sua API
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/ready || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+
+  db:
+    image: postgres:15
+    container_name: minhaapi_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: minhaapi
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: minhaapi_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@local.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:
