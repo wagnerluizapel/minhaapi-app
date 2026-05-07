@@ -97,36 +97,37 @@ Endpoints            → Business logic execution
 ```
 
 
-# App layer:
+## Application Layer
 
-🔹 Controllers? Não. Minimal APIs.
-A API usa Minimal APIs, que deixam o código:
+- **Minimal APIs**  
+  The project uses Minimal APIs instead of traditional controllers, making the code:  
+  - faster  
+  - simpler  
+  - more direct  
+  - with less boilerplate
 
-mais rápido
-mais simples
-mais direto
-com menos boilerplate
+- **Services**  
+  Contain business logic.  
+  Examples: `PersonService`, `AuditService`, `OpenWeatherService`.
 
-🔹 Services
-Contêm a lógica de negócio.
-Exemplo: PessoaService, AuditService, OpenWeatherService.
+- **Repositories**  
+  Isolate database access using the Repository Pattern.  
+  Example: `PersonRepository`.
 
-🔹 Repositories
-Isolam o acesso ao banco.
-Exemplo: PessoaRepository.
+- **DTOs**  
+  Prevent exposing entities directly.  
+  Examples: `PersonCreateDto`, `LoginRequest`.
 
-🔹 DTOs
-Evita expor entidades diretamente.
-Exemplo: PessoaCreateDto, LoginRequest.
+- **Validators**  
+  Professional validation using FluentValidation.
 
-🔹 Validators
-Validação profissional com FluentValidation.
-
-🔹 Middleware
-Onde mora a mágica de segurança e auditoria.
+- **Middleware**  
+  Where all the security and auditing logic lives.  
+  Examples: RequestId, Audit, SecurityHeaders, Sanitization.
 
 
-# Security:
+
+## Security:
 
 | Layer | Protection |
 | --- | --- |
@@ -144,7 +145,7 @@ Onde mora a mágica de segurança e auditoria.
 This is not “basic security” — it’s enterprise‑grade security.
 
 
-# External Integration — OpenWeather API:
+## External Integration — OpenWeather API:
 
 Endpoint:
 
@@ -165,7 +166,7 @@ Example response:
 ```
 
 
-# Swagger Screenshots:
+## Swagger Screenshots:
 
 (Images embedded via /imagens/... — filenames listed at the end)
 
@@ -197,7 +198,7 @@ Example response:
 ![Swagger GET Clima](./imagens/swagger-get-clima.png)
 
 
-# Azure Deployment (App Service + Docker)
+## Azure Deployment (App Service + Docker)
 
 ### 🔹 App Service Overview
 ![Azure Overview](./imagens/azure-overview.png)
@@ -221,7 +222,7 @@ Example response:
 ![Azure Healthcheck Full](./imagens/azure-healthcheck-full.png)
 
 
-# Database (Neon PostgreSQL)
+## Database (Neon PostgreSQL)
 
 ### 🔹 People Table
 ![Neon Pessoas](./imagens/neon-pessoas.png)
