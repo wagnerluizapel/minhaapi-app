@@ -207,7 +207,7 @@ Healthcheck /health
 # Database (Neon PostgreSQL)
 
 People Table
-./imagens/neon-pessoas.png
+![Neon Pessoas](./imagens/neon-pessoas.png)
 
 Users Table
 ./imagens/neon-usuarios.png
