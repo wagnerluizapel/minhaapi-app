@@ -212,7 +212,7 @@ Example response:
 
 # Database (Neon PostgreSQL)
 
-🔹 People Table
+### 🔹 People Table
 ![Neon Pessoas](./imagens/neon-pessoas.png)
 
 🔹 Users Table
