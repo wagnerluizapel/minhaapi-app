@@ -143,6 +143,7 @@ GET /externo/clima/{cidade}
 
 Example response:
 
+```json
 {
   "success": true,
   "data": {
@@ -152,6 +153,7 @@ Example response:
     "descricao": "fog"
   }
 }
+```
 
 
 # Swagger Screenshots:
