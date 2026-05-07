@@ -203,6 +203,9 @@ GET /externo/clima/{cidade} Execution
 🔹 Healthcheck /health
 ![Azure Healthcheck](./imagens/azure-healthcheck.png)
 
+🔹 Healthcheck Full /health
+![Azure Healthcheck Full](./imagens/azure-healthcheck-full.png)
+
 
 # Database (Neon PostgreSQL)
 
