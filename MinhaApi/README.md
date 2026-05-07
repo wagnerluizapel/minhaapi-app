@@ -164,8 +164,10 @@ Example response:
 🔹 Login Endpoint
 ![Swagger Login](./imagens/swagger-login.png)
 
-🔹 JWT Authorization
+🔹 JWT Authentication
 ![Swagger Auth](./imagens/swagger-auth.png)
+
+🔹 JWT Authorization
 ![Swagger Authorization](./imagens/swagger-authorization.png)
 
 🔹 Returned Token
