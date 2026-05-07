@@ -59,34 +59,43 @@ easy to scale
 easy to explain in interviews
 
 
-# Request Pipeline:
+## Request Pipeline
 
-Client → Kestrel → ForwardedHeaders
-       → Serilog Logging
-       → RequestId Middleware
-       → Audit Middleware
-       → Rate Limiting
-       → CORS
-       → Security Headers
-       → Input Sanitization
-       → Authentication (JWT)
-       → Authorization
-       → Endpoint (People, Auth, External)
-       → Response
+```text
+Client
+  → Kestrel
+  → ForwardedHeaders
+  → Serilog Logging
+  → RequestId Middleware
+  → Audit Middleware
+  → Rate Limiting
+  → CORS
+  → Security Headers
+  → Input Sanitization
+  → Authentication (JWT)
+  → Authorization
+  → Endpoint (People, Auth, External)
+  → Response
+```
+
 Each layer provides a specific production‑grade responsibility.
 
-Cada etapa tem um propósito claro:
-ForwardedHeaders → Suporte a proxies e Azure
-Serilog → Logs estruturados
-RequestId → Correlação entre logs
-AuditMiddleware → Auditoria corporativa
-RateLimiter → Proteção contra brute force
-CORS → Segurança de origem
-SecurityHeaders → Proteção OWASP
-Sanitização → Remove scripts e payloads maliciosos
-JWT → Autenticação forte
-Authorization → Controle de acesso
-Endpoints → Execução da lógica de negócio
+### Layer Breakdown
+
+```text
+ForwardedHeaders     → Proxy & Azure support  
+Serilog              → Structured logging  
+RequestId            → Log correlation  
+AuditMiddleware      → Corporate auditing  
+RateLimiter          → Brute‑force protection  
+CORS                 → Origin security  
+SecurityHeaders      → OWASP hardening  
+Sanitization         → Removes malicious payloads  
+JWT                  → Strong authentication  
+Authorization        → Access control  
+Endpoints            → Business logic execution  
+```
+
 
 # App layer:
 
