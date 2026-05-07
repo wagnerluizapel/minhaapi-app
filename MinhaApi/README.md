@@ -158,29 +158,30 @@ Example response:
 
 (Images embedded via /imagens/... — filenames listed at the end)
 
-Swagger Overview
-./imagens/swagger-overview.png
+🔹 Swagger Overview
+![Swagger Overview](./imagens/swagger-overview.png)
 
-Login Endpoint
-./imagens/swagger-login.png
+🔹 Login Endpoint
+![Swagger Login](./imagens/swagger-login.png)
 
-JWT Authorization
-./imagens/swagger-auth.png
+🔹 JWT Authorization
+![Swagger Auth](./imagens/swagger-auth.png)
+![Swagger Authorization](./imagens/swagger-authorization.png)
 
-Returned Token
-./imagens/swagger-token.png
+🔹 Returned Token
+![Swagger Token](./imagens/swagger-token.png)
 
-People Endpoints
-./imagens/swagger-pessoas.png
+🔹 People Endpoints
+![Swagger People](./imagens/swagger-pessoas.png)
 
-GET /pessoas Execution
-./imagens/swagger-get-pessoas.png
+🔹 GET /pessoas Execution
+![Swagger GET Pessoas](./imagens/swagger-get-pessoas.png)
 
-External Integration Endpoint
-./imagens/swagger-clima.png
+🔹 External Integration Endpoint
+![Swagger Clima](./imagens/swagger-clima.png)
 
-GET /externo/clima/{cidade} Execution
-./imagens/swagger-get-clima.png
+🔹 GET /externo/clima/{cidade} Execution
+![Swagger GET Clima](./imagens/swagger-get-clima.png)
 
 
 # Azure Deployment (App Service + Docker)
