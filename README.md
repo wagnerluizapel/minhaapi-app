@@ -36,6 +36,7 @@ HttpClient + External Integration (OpenWeather API)
 
 ## Architecture Overview
 
+```text
 /MinhaApi
  ├── Data/                → DbContext, Migrations, Seeds
  ├── Extensions/          → Endpoints (People, Auth, External)
@@ -47,16 +48,15 @@ HttpClient + External Integration (OpenWeather API)
  ├── Validators/          → FluentValidation
  ├── Program.cs           → Full application pipeline
  └── docker-compose.yml   → Local infrastructure
+```
 
 This structure ensures the project is:
 
-easy to navigate
+- easy to navigate  
+- easy to maintain  
+- easy to scale  
+- easy to explain in interviews  
 
-easy to maintain
-
-easy to scale
-
-easy to explain in interviews
 
 
 ## Request Pipeline
