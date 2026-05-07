@@ -158,55 +158,55 @@ Example response:
 
 (Images embedded via /imagens/... — filenames listed at the end)
 
-🔹 Swagger Overview
+### 🔹 Swagger Overview
 ![Swagger Overview](./imagens/swagger-overview.png)
 
-🔹 Login Endpoint
+### 🔹 Login Endpoint
 ![Swagger Login](./imagens/swagger-login.png)
 
-🔹 JWT Authentication
+### 🔹 JWT Authentication
 ![Swagger Auth](./imagens/swagger-auth.png)
 
-🔹 JWT Authorization
+### 🔹 JWT Authorization
 ![Swagger Authorization](./imagens/swagger-authorization.png)
 
-🔹 Returned Token
+### 🔹 Returned Token
 ![Swagger Token](./imagens/swagger-token.png)
 
-🔹 People Endpoints
+### 🔹 People Endpoints
 ![Swagger People](./imagens/swagger-pessoas.png)
 
-🔹 GET /pessoas Execution
+### 🔹 GET /pessoas Execution
 ![Swagger GET Pessoas](./imagens/swagger-get-pessoas.png)
 
-🔹 External Integration Endpoint
+### 🔹 External Integration Endpoint
 ![Swagger Clima](./imagens/swagger-clima.png)
 
-🔹 GET /externo/clima/{cidade} Execution
+### 🔹 GET /externo/clima/{cidade} Execution
 ![Swagger GET Clima](./imagens/swagger-get-clima.png)
 
 
 # Azure Deployment (App Service + Docker)
 
-🔹 App Service Overview
+### 🔹 App Service Overview
 ![Azure Overview](./imagens/azure-overview.png)
 
-🔹 Deployment Center (Container)
+### 🔹 Deployment Center (Container)
 ![Azure Deployment](./imagens/azure-deployment.png)
 
-🔹 Log Stream — Container Startup
+### 🔹 Log Stream — Container Startup
 ![Azure Log Startup](./imagens/azure-logstream-startup.png)
 
-🔹 Log Stream — EF Migrations
+### 🔹 Log Stream — EF Migrations
 ![Azure Log Migrations](./imagens/azure-logstream-migrations.png)
 
-🔹 App Service Plan
+### 🔹 App Service Plan
 ![Azure Plan](./imagens/azure-appservice-plan.png)
 
-🔹 Healthcheck /health
+### 🔹 Healthcheck /health
 ![Azure Healthcheck](./imagens/azure-healthcheck.png)
 
-🔹 Healthcheck Full /health
+### 🔹 Healthcheck Full /health
 ![Azure Healthcheck Full](./imagens/azure-healthcheck-full.png)
 
 
@@ -215,13 +215,13 @@ Example response:
 ### 🔹 People Table
 ![Neon Pessoas](./imagens/neon-pessoas.png)
 
-🔹 Users Table
+### 🔹 Users Table
 ![Neon Usuarios](./imagens/neon-usuarios.png)
 
-🔹 Audit Logs
+### 🔹 Audit Logs
 ![Neon AuditLogs](./imagens/neon-auditlogs.png)
 
-🔹 Audit Logs (Detailed)
+### 🔹 Audit Logs (Detailed)
 ![Neon AuditLogs Detailed](./imagens/neon-auditlogs-detalhado.png)
 
 
