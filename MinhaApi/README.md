@@ -260,14 +260,15 @@ A complete, modern backend — perfect for portfolio and interviews.
 
 ## Expected Files in /imagens:
 
-swagger-overview.png
-swagger-login.png
 swagger-auth.png
-swagger-token.png
-swagger-pessoas.png
-swagger-get-pessoas.png
+swagger-authorization.png
 swagger-clima.png
 swagger-get-clima.png
+swagger-pessoas.png
+swagger-get-pessoas.png
+swagger-overview.png
+swagger-login.png
+swagger-token.png
 
 azure-overview.png
 azure-deployment.png
@@ -275,11 +276,14 @@ azure-logstream-startup.png
 azure-logstream-migrations.png
 azure-appservice-plan.png
 azure-healthcheck.png
+azure-healthcheck-full.png
 
-neon-pessoas.png
-neon-usuarios.png
 neon-auditlogs.png
 neon-auditlogs-detalhado.png
+neon-pessoas.png
+neon-usuarios.png
+
+
 
 
 
