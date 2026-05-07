@@ -209,14 +209,14 @@ Healthcheck /health
 🔹 People Table
 ![Neon Pessoas](./imagens/neon-pessoas.png)
 
-Users Table
-./imagens/neon-usuarios.png
+🔹 Users Table
+![Neon Usuarios](./imagens/neon-usuarios.png)
 
-Audit Logs
-./imagens/neon-auditlogs.png
+🔹 Audit Logs
+![Neon AuditLogs](./imagens/neon-auditlogs.png)
 
-Audit Logs (Detailed)
-./imagens/neon-auditlogs-detalhado.png
+🔹 Audit Logs (Detailed)
+![Neon AuditLogs Detailed](./imagens/neon-auditlogs-detalhado.png)
 
 
 ---
