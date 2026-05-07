@@ -158,65 +158,71 @@ Example response:
 
 (Images embedded via /imagens/... — filenames listed at the end)
 
-Swagger Overview
-./imagens/swagger-overview.png
+🔹 Swagger Overview
+![Swagger Overview](./imagens/swagger-overview.png)
 
-Login Endpoint
-./imagens/swagger-login.png
+🔹 Login Endpoint
+![Swagger Login](./imagens/swagger-login.png)
 
-JWT Authorization
-./imagens/swagger-auth.png
+🔹 JWT Authentication
+![Swagger Auth](./imagens/swagger-auth.png)
 
-Returned Token
-./imagens/swagger-token.png
+🔹 JWT Authorization
+![Swagger Authorization](./imagens/swagger-authorization.png)
 
-People Endpoints
-./imagens/swagger-pessoas.png
+🔹 Returned Token
+![Swagger Token](./imagens/swagger-token.png)
 
-GET /pessoas Execution
-./imagens/swagger-get-pessoas.png
+🔹 People Endpoints
+![Swagger People](./imagens/swagger-pessoas.png)
 
-External Integration Endpoint
-./imagens/swagger-clima.png
+🔹 GET /pessoas Execution
+![Swagger GET Pessoas](./imagens/swagger-get-pessoas.png)
 
-GET /externo/clima/{cidade} Execution
-./imagens/swagger-get-clima.png
+🔹 External Integration Endpoint
+![Swagger Clima](./imagens/swagger-clima.png)
+
+🔹 GET /externo/clima/{cidade} Execution
+![Swagger GET Clima](./imagens/swagger-get-clima.png)
 
 
-# Azure Deployment (App Service + Docker
+# Azure Deployment (App Service + Docker)
 
-App Service Overview
-./imagens/azure-overview.png
+🔹 App Service Overview
+![Azure Overview](./imagens/azure-overview.png)
 
-Deployment Center (Container)
-./imagens/azure-deployment.png
+🔹 Deployment Center (Container)
+![Azure Deployment](./imagens/azure-deployment.png)
 
-Log Stream — Container Startup
-./imagens/azure-logstream-startup.png
+🔹 Log Stream — Container Startup
+![Azure Log Startup](./imagens/azure-logstream-startup.png)
 
-Log Stream — EF Migrations
-./imagens/azure-logstream-migrations.png
+🔹 Log Stream — EF Migrations
+![Azure Log Migrations](./imagens/azure-logstream-migrations.png)
 
-App Service Plan
-./imagens/azure-appservice-plan.png
+🔹 App Service Plan
+![Azure Plan](./imagens/azure-appservice-plan.png)
 
-Healthcheck /health
-./imagens/azure-healthcheck.png
+🔹 Healthcheck /health
+![Azure Healthcheck](./imagens/azure-healthcheck.png)
+
+🔹 Healthcheck Full /health
+![Azure Healthcheck Full](./imagens/azure-healthcheck-full.png)
 
 
 # Database (Neon PostgreSQL)
 
-People Table
-./imagens/neon-pessoas.png
+🔹 People Table
+![Neon Pessoas](./imagens/neon-pessoas.png)
 
-Users Table
-./imagens/neon-usuarios.png
+🔹 Users Table
+![Neon Usuarios](./imagens/neon-usuarios.png)
 
-Audit Logs
-./imagens/neon-auditlogs.png
+🔹 Audit Logs
+![Neon AuditLogs](./imagens/neon-auditlogs.png)
 
-Audit Logs (Detailed)
-./imagens/neon-auditlogs-detalhado.png
+🔹 Audit Logs (Detailed)
+![Neon AuditLogs Detailed](./imagens/neon-auditlogs-detalhado.png)
 
 
 ---
