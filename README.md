@@ -264,8 +264,9 @@ A complete, modern backend — perfect for portfolio and interviews.
 
 ---
 
-## Expected Files in /imagens:
+## 📂 Expected Files in `/imagens`
 
+```
 swagger-auth.png
 swagger-authorization.png
 swagger-clima.png
@@ -288,8 +289,7 @@ neon-auditlogs.png
 neon-auditlogs-detalhado.png
 neon-pessoas.png
 neon-usuarios.png
-
-
+```
 
 
 
