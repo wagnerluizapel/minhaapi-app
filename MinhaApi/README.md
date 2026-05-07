@@ -183,25 +183,25 @@ GET /externo/clima/{cidade} Execution
 ./imagens/swagger-get-clima.png
 
 
-# Azure Deployment (App Service + Docker
+# Azure Deployment (App Service + Docker)
 
-App Service Overview
-./imagens/azure-overview.png
+🔹 App Service Overview
+![Azure Overview](./imagens/azure-overview.png)
 
-Deployment Center (Container)
-./imagens/azure-deployment.png
+🔹 Deployment Center (Container)
+![Azure Deployment](./imagens/azure-deployment.png)
 
-Log Stream — Container Startup
-./imagens/azure-logstream-startup.png
+🔹 Log Stream — Container Startup
+![Azure Log Startup](./imagens/azure-logstream-startup.png)
 
-Log Stream — EF Migrations
-./imagens/azure-logstream-migrations.png
+🔹 Log Stream — EF Migrations
+![Azure Log Migrations](./imagens/azure-logstream-migrations.png)
 
-App Service Plan
-./imagens/azure-appservice-plan.png
+🔹 App Service Plan
+![Azure Plan](./imagens/azure-appservice-plan.png)
 
-Healthcheck /health
-./imagens/azure-healthcheck.png
+🔹 Healthcheck /health
+![Azure Healthcheck](./imagens/azure-healthcheck.png)
 
 
 # Database (Neon PostgreSQL)
